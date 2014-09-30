@@ -1,0 +1,139 @@
+* {
+	margin: 0 auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;    
+	font-weight: 400;
+	color:rgb(40,40,40);
+}
+
+h1 {
+	 font-weight: 700;
+ 	font-size: 110%;
+}
+
+.container {
+	max-width: 50em;
+}
+
+.image-gallery {
+	list-style-type: none;
+ 	padding: 0;
+}
+
+.image-gallery li {
+	width: 48.5%;
+	float: left;
+	line-height: 0;
+	margin: 0 3% 3% 0;
+}
+
+#contact ul {
+	list-style-position: inside;
+	padding: 0;
+}
+
+.image-gallery li:nth-child(2n) {
+	margin-right: 0
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+#about,
+#contact {
+	padding-left: 51.5%;
+}
+
+#about, #portfolio, #contact {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.site-header {
+	z-index: 1;
+	position: fixed;
+	height: 5em;
+	background-color: #ffffff;
+	left: 0;
+	top: 0;
+	right: 0;
+	margin: 0 auto;
+	max-width: 50em;
+	border-bottom: 3px solid rgb(169,79,101);
+}
+
+.site-title {
+ 	float: left;
+ 	padding-top: 20px;
+ 	padding-bottom: 50px;
+ 	color: #333333;
+}
+
+.site-nav {
+	float: right;
+}
+
+.site-nav ol {
+	list-style-type: none;
+}
+
+.site-nav li {
+	display: inline-block;
+	color: #333333;
+	padding-top: 2em;
+	margin-left: 1em;
+}
+
+.page-section {
+	clear: both;
+	position: relative;
+	max-width: 100%;
+	display: block;
+}
+
+.site-main {
+	margin-top: 5em;
+}
+
+#about {
+	font-size: 115%;
+	line-height: 150%;
+}
+
+.site-footer {
+	border-top: 3px solid rgb(169,79,101);
+	text-align: center;
+	padding: 3em 0;
+	color: rgb(180,180,180);
+}
+
+.page-section {
+	border-bottom: 20em;
+}
